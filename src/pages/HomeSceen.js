@@ -9,7 +9,7 @@ const HomeSceen = () => {
     <>
       <Nav />
       <Banner />
-      <div className={` text-white -mt-32`}>
+      <div className={`bg-black text-white -mt-32`}>
        
 
        <div>

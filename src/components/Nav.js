@@ -3,6 +3,7 @@ import logo from "../assets/logo.png";
 import profile from "../assets/account.webp";
 function Nav() {
   const [shownav,setShownav]=useState(false);
+  
   const transitionNav=()=>{
     if (window.scrollY>60){
       setShownav(true)
